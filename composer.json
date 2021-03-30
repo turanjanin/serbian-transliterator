@@ -1,0 +1,33 @@
+{
+    "name": "turanjanin/serbian-transliterator",
+    "description": "Transliterate between Serbian Cyrillic and Latin scripts.",
+    "keywords": ["serbian", "transliteration", "cyrillic", "latin", "latinisation"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jovan Turanjanin",
+            "email": "jovan@turanjanin.net",
+            "homepage": "https://www.turanjanin.net"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Turanjanin\\SerbianTransliterator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Turanjanin\\SerbianTransliterator\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
